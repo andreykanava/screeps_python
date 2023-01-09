@@ -99,3 +99,4 @@ def main():
             
         if creep.memory.role == 'recharger' and len(miners2) > 0:
             recharger.run(creep)
+module.exports.loop = main
